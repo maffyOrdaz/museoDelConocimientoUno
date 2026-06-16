@@ -96,6 +96,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .imagen-objetivo{
