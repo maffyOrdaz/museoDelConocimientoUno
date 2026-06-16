@@ -375,3 +375,57 @@ footer{
     object-fit: contain;
     display: block;
 }
+*/ULTIMO BLOQUE*/
+@media (max-width: 768px){
+
+    h1{
+        font-size: 45px;
+    }
+
+    .encabezado,
+    .objetivo,
+    .asc,
+    .museo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .objetivo,
+    .asc,
+    .museo{
+        width: 95%;
+    }
+
+    .objetivo h2,
+    .asc h2,
+    .museo h2{
+        font-size: 32px;
+    }
+
+    .objetivo p,
+    .asc p,
+    .museo p{
+        font-size: 18px;
+    }
+
+    .imagen-objetivo,
+    .imagen-asc,
+    .collage-museo img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .experiencia{
+        width: 100%;
+        margin-top: 0 !important;
+    }
+
+    .galeria h2{
+        font-size: 36px;
+    }
+
+    .contenedor-imagen img{
+        max-width: 100%;
+    }
+}
