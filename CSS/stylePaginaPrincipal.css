@@ -1,0 +1,377 @@
+/*TITULO  página principal*/
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 95px;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #D4AF37, #F7E08A, #D4AF37);
+    background-size: 300% 300%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-text-stroke: 2px #B8860B;
+
+    animation: brillo 5s ease infinite;
+}
+
+@keyframes brillo{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+/* diseño del cuerpo*/
+body{
+    background: linear-gradient(to bottom, #0E4A8A, #082B52, #041A33);
+    min-height: 100vh;
+}
+.navbar{
+    background-color: #1F2937 !important;
+}
+
+.btn-outline-success{
+    color: #d1cfca !important;
+    border-color: #67c1ea !important;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+/*PIE DE PÁGINA*/
+
+footer{
+    margin-top: 50px;
+}
+
+.ola{
+    height: 120px;
+    background: linear-gradient(90deg, #0E4A8A, #D4AF37, #082B52);
+    background-size: 400% 400%;
+    animation: moverOla 6s ease infinite;
+    border-radius: 100% 100% 0 0;
+}
+
+@keyframes moverOla{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+/*PIE DE PAGINA*/
+.footer-contenido{
+    background-color: #041A33;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.copyright{
+    text-align: right;
+    font-size: 12px;
+    color: #D4AF37;
+}
+/*SUBTITULOS plateados*/
+.objetivo{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagen-objetivo{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.texto-objetivo{
+    flex: 1;
+}
+
+.objetivo h2{
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: #E5E5E5;
+    text-shadow: 2px 2px 4px #666666;
+}
+
+.objetivo p{
+    font-size: 24px;
+    color: #D9D9D9;
+    line-height: 1.8;
+    text-align: justify;
+}
+.texto-objetivo h2{
+    text-align: center;
+}
+
+/*TEXTO PLATEADO ASC */
+.asc{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagen-asc{
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+    border: 3px solid #C0C0C0;
+}
+
+.texto-asc{
+    flex: 1;
+}
+
+.asc h2{
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: #E5E5E5;
+    text-shadow: 2px 2px 4px #666666;
+    text-align: center;
+}
+
+.asc p{
+    font-size: 24px;
+    color: #D9D9D9;
+    line-height: 1.8;
+    text-align: justify;
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #C0C0C0;
+}
+/*MUSEO */
+.museo{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.texto-museo{
+    flex: 1;
+}
+
+.museo h2{
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: #E5E5E5;
+    text-shadow: 2px 2px 4px #666666;
+    text-align: center;
+}
+
+.museo p{
+    font-size: 24px;
+    color: #D9D9D9;
+    line-height: 1.8;
+    text-align: justify;
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #C0C0C0;
+}
+
+.collage-museo{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.collage-museo img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #C0C0C0;
+}
+/* CODIGO GALERIA*/
+.galeria{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.galeria h2{
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: #E5E5E5;
+    text-shadow: 2px 2px 4px #666666;
+    margin-bottom: 40px;
+}
+
+.miGaleria{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.swiper-slide{
+    width: 200px !important;
+    height: 450px !important;
+}
+
+.swiper-slide img{
+    width: 200%;
+    height: 450px;
+    object-fit: cover;
+}
+ /*Exposiciones*/
+
+ /* CONTENEDOR GENERAL */
+.experiencias{
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* TARJETAS */
+/* CONTENEDOR */
+
+.experiencias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: flex-start;
+    padding: 5px 0;
+}
+
+/* TARJETAS */
+
+.experiencia{
+    width: 32%;
+    padding: 25px;
+    margin-bottom: 40px;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 2px solid rgba(192,192,192,.6);
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 15px rgba(255,255,255,.10),
+        inset 0 0 10px rgba(255,255,255,.05);
+
+    transition: .3s ease;
+}
+
+.experiencia:hover{
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 0 20px rgba(255,255,255,.20),
+        inset 0 0 10px rgba(255,255,255,.08);
+}
+
+/* ESCALONADO */
+
+.izquierda{
+    margin-top: 0;
+}
+
+.centro{
+    margin-top: 60px;
+}
+
+.derecha{
+    margin-top: 130px;
+}
+
+/* TITULOS */
+
+.experiencia h2{
+    font-family: Georgia, serif;
+    font-size: 42px;
+    color: #E5E5E5;
+    text-align: center;
+    margin-bottom: 20px;
+
+    text-shadow:
+        0 0 5px rgba(255,255,255,.8),
+        0 0 10px rgba(255,255,255,.5),
+        2px 2px 4px #666666;
+}
+
+/* TEXTO */
+
+.experiencia p{
+    font-size: 22px;
+    color: #D9D9D9;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* IMAGENES */
+
+.experiencia img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    margin-top: 20px;
+
+    border-radius: 15px;
+    border: 2px solid rgba(192,192,192,.5);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px){
+
+    .experiencia{
+        width: 100%;
+        margin-top: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .experiencia h2{
+        font-size: 32px;
+    }
+
+    .experiencia p{
+        font-size: 18px;
+    }
+
+    .experiencia img{
+        height: 220px;
+    }
+}
+
+/*MAPA INTERACTIVO*/
+.contenedor-imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.contenedor-imagen img{
+    max-width: 110%;
+    max-height: 98vh;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
