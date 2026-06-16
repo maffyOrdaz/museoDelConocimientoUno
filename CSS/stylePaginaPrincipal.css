@@ -341,22 +341,88 @@ footer{
 
 @media (max-width: 768px){
 
-    .experiencia{
-        width: 100%;
-        margin-top: 0 !important;
-        margin-bottom: 30px;
+    h1{
+        font-size: clamp(35px, 8vw, 55px);
+        padding: 0 10px;
     }
 
-    .experiencia h2{
+    .encabezado,
+    .objetivo,
+    .asc,
+    .museo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .objetivo,
+    .asc,
+    .museo,
+    .galeria,
+    .experiencias{
+        width: 95%;
+    }
+
+    .objetivo h2,
+    .asc h2,
+    .museo h2,
+    .galeria h2{
         font-size: 32px;
     }
 
+    .objetivo p,
+    .asc p,
+    .museo p,
     .experiencia p{
         font-size: 18px;
     }
 
+    .imagen-objetivo,
+    .imagen-asc,
+    .collage-museo img{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .experiencia{
+        width: 100%;
+        margin-top: 0 !important;
+        margin-bottom: 25px;
+    }
+
+    .experiencia h2{
+        font-size: 28px;
+    }
+
     .experiencia img{
-        height: 220px;
+        height: auto;
+    }
+
+    .swiper-slide{
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .swiper-slide img{
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor-imagen img{
+        max-width: 100%;
+        max-height: none;
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .logo{
+        width: 70px;
+    }
+
+    .copyright{
+        text-align: center;
     }
 }
 
