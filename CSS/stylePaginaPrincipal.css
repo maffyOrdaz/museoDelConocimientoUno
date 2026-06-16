@@ -442,7 +442,6 @@ footer{
     object-fit: contain;
     display: block;
 }
-/*ULTIMO BLOQUE*/
 /* ULTIMO BLOQUE */
 @media (max-width: 768px){
 
@@ -504,4 +503,53 @@ img{
 
 body{
     overflow-x: hidden;
+}
+
+
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: clamp(35px, 8vw, 95px);
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px){
+
+    .encabezado{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .container-fluid{
+        justify-content: center !important;
+    }
+
+    .btn-outline-success{
+        margin: 5px !important;
+    }
+
+    .swiper-slide img,
+    .imagen-objetivo,
+    .imagen-asc,
+    .collage-museo img,
+    .experiencia img,
+    .contenedor-imagen img{
+        width: 100%;
+        height: auto;
+    }
 }
