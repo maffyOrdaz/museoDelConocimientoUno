@@ -235,8 +235,8 @@ footer{
 }
 
 .swiper-slide img{
-    width: 200%;
-    height: 450px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
  /*Exposiciones*/
