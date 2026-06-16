@@ -429,3 +429,33 @@ footer{
         max-width: 100%;
     }
 }
+*/CODIGO NUEVO DOS*/
+@media (max-width: 768px){
+
+    .objetivo,
+    .asc,
+    .museo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-objetivo,
+    .texto-asc,
+    .texto-museo{
+        width: 100%;
+    }
+
+    .objetivo p,
+    .asc p,
+    .museo p{
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .imagen-objetivo,
+    .imagen-asc{
+        width: 90%;
+        max-width: 350px;
+    }
+}
